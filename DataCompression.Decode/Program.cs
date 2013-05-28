@@ -36,7 +36,7 @@ namespace DataCompression.Decode
             {
                 Console.WriteLine("The file could not be read:");
                 Console.WriteLine(e.Message);
-                Console.Read();
+                Console.ReadLine();
             }
             try
             {
@@ -50,7 +50,7 @@ namespace DataCompression.Decode
             {
                 Console.WriteLine("The file could not be written:");
                 Console.WriteLine(e);
-                Console.Read();
+                Console.ReadLine();
             }
         }
     }
